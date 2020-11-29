@@ -1,9 +1,8 @@
 body {
-    background: greenyellow;
+    background: rgb(229, 211, 188);
     font-family: 'Texturina', serif;
 }
 
 #title {
-    font-size: large;
     text-align: center;
 }
