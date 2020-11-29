@@ -2,3 +2,8 @@ body {
     background: greenyellow;
     font-family: 'Texturina', serif;
 }
+
+#title {
+    font-size: large;
+    float: center;
+}
