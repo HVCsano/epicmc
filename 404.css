@@ -4,6 +4,9 @@
 body {
     background-image: url("assets/bc.png");
     font-family: 'Texturina', serif;
+    overflow-x: hidden;
+    margin-bottom: -1000px;
+    margin-right: 20px;
 }
 
 #navbar {
@@ -11,7 +14,7 @@ body {
     background-color: rgba(0, 0, 0, 0.384);
     color: black;
     margin-left: -8px;
-    margin-right: -8px;
+    margin-right: -20px;
     margin-top: -22px;
     padding-bottom: 1px;
     justify-content: space-around;
@@ -53,4 +56,14 @@ body {
 #error {
     text-align: center;
     color: rgb(48, 47, 47);
+}
+
+.bottom {
+    margin-top: 684px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
