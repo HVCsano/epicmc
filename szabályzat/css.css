@@ -80,6 +80,7 @@ body {
     padding-top: 1px;
     margin-right: 45px;
     margin-left: 45px;
+    display: none;
 }
 
 .li {
@@ -103,18 +104,53 @@ body {
     color: whitesmoke;
 }
 
-.invite {
+.szbnavbar {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -22px;
+    padding-bottom: 1px;
+    justify-content: space-around;
+}
+
+.szbtitle {
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 15px;
+    padding-top: 8px;
+}
+
+.szbnav-links{
+    margin-left: auto;
+    display: flex;
+    position: absolute;
+    top: 75px;
+    left: 1000px;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.szbnav-links a{
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.szbnav-links li{
     list-style: none;
 }
 
-.invite a {
-    text-decoration: none;
-    color: whitesmoke;
-    background: tomato;
-    border-style: solid;
-    padding: 5px;
+.szbnav-links a:hover{
+    color: black;
 }
 
-.invite a:hover {
-    background: black;
+.szbnem {
+    color: whitesmoke;
+}
+
+.szbmost {
+    color: rgb(248, 98, 98);
 }
