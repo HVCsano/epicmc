@@ -53,3 +53,10 @@ body {
   .nem {
       color: whitesmoke;
   }
+
+  @media (max-width: 400px) {
+    .menu {
+        background-image: none;
+        background-color: rgb(52, 78, 46);
+    }
+  }
