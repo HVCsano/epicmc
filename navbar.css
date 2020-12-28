@@ -11,6 +11,12 @@
     margin-left: 10px;
 }
 
+.navbar-links {
+    position: absolute;
+    left: 1250px;
+    top: -3px;
+}
+
 .navbar-links ul {
     margin: 0;
     padding-left: 0;
