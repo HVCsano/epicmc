@@ -39,7 +39,8 @@ body {
   }
 
   .bottom {
-      margin-top: 20px;
+    font-family: 'Audiowide', cursive;
+    margin-top: 20px;
       color: white;
       background-color: black;
       text-align: center;
