@@ -45,6 +45,7 @@ body {
   }
 
   .bottom {
+    font-family: 'Audiowide', cursive;
       margin-top: 50px;
       color: white;
       background-color: black;
@@ -67,4 +68,11 @@ body {
 
   .linktext:hover {
       color: green;
+  }
+
+  @media (max-width: 400px) {
+    .menu {
+        background-image: none;
+        background-color: rgb(52, 78, 46);
+    }
   }
