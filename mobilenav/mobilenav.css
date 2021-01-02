@@ -12,6 +12,7 @@ body {
 
 .mobilenav li {
   list-style: none;
+  margin-bottom: 120px;
 }
 
 .mobilenav li a {
